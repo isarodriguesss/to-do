@@ -1,0 +1,14 @@
+.form-task {
+  width: 700px;
+  padding: 50px;
+  margin: auto;
+  text-align: left;
+}
+
+.form-task .input-task {
+  margin: 10px;
+}
+
+.app {
+
+}
