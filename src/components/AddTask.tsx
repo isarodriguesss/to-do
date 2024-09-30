@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button"
 import Input from "./Input";
-import {TasksContext} from '../App'
+import {TasksContext} from '../pages/Home'
 import useForm from "../hooks/useForm";
 
 const TaskContext = React.createContext()
@@ -38,7 +38,7 @@ export default function AddTask() {
           onChange={handleChange}
           placeholder='Descrição'
         />
-        <Button onClick={()=>{}} color='primary'>Adicionar</Button>
+        <Button onClick={()=>{}} color='primary'>Adicionar Tarefa</Button>
       </form>
     </div>
   )
