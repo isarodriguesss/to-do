@@ -24,7 +24,7 @@ export default function TaskCard ({children, itemNumber, title}: Props) {
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{children}</p>
           <Button color='danger' onClick={handleRemove}>Remover</Button>
-          <Button onClick={()=>{}} color='primary'>{<Link className="link" to={`edit/${itemNumber}`}>Editar</Link>}</Button>
+          <Button onClick={()=>{}} color='primary'>{<Link className="link" to={`edit/${itemNumber}`}>Editar 3</Link>}</Button>
         </div>
       </div>
     </>
