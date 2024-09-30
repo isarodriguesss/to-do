@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
-import {TasksContext} from '../App'
+import {TasksContext} from '../pages/Home'
+import { Link } from 'react-router-dom'
 
 interface Props {
   children: {},
@@ -23,7 +24,7 @@ export default function TaskCard ({children, itemNumber, title}: Props) {
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{children}</p>
           <Button color='danger' onClick={handleRemove}>Remover</Button>
-          <Button onClick={()=>{}} color='primary'>Editar</Button>
+          <Button onClick={()=>{}} color='primary'>{<Link className="link" to={`edit/${itemNumber}`}>Editar</Link>}</Button>
         </div>
       </div>
     </>
