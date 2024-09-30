@@ -38,7 +38,7 @@ export default function AddTask() {
           onChange={handleChange}
           placeholder='Descrição'
         />
-        <Button onClick={()=>{}} color='primary'>Adicionar</Button>
+        <Button onClick={()=>{}} color='primary'>Adicionar 2</Button>
       </form>
     </div>
   )
